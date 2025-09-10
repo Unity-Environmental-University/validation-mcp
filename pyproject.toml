@@ -1,0 +1,10 @@
+[project]
+name = "validation-mcp"
+version = "0.1.0"
+description = "Validation MCP server for suite"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+validation-mcp = "validation_mcp.mcp_server:main"
+
