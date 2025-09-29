@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# MCP call wrapper for lxd_ghost transport discovery
+exec "$(dirname "$0")/validation-mcp" "$@"
